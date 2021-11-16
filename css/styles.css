@@ -250,7 +250,7 @@ body {
 /*---FOOTER---*/
 
 .footer-name {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 .footer-second:not(:last-child){
     margin-bottom: 9px;
