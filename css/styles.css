@@ -39,9 +39,6 @@ body {
 .site-nav {
     display: flex;
 }
-.site-nav .header-item + .header-item {
-    margin-left: 50px;
-}
 .header-navigation {
     display: flex; 
     align-items: center;
@@ -49,7 +46,9 @@ body {
 .header-container {
     display: flex; 
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
+}
+.header {
+    border-bottom: 1px solid #ECECEC;    
 }
 .header-link {
     font-weight: 500;
@@ -146,6 +145,8 @@ body {
     color: var(--main-title-color);
     background: #188ce8;
     border-radius: 4px;
+    padding: 10px 32px;
+    align-items: center;
 }
 /*---------Subject------*/
 .subject-container {
@@ -188,13 +189,13 @@ body {
     letter-spacing: 0.03em;
     color:var(--main-text-color);
     text-align: center;
-    padding-bottom: 50px;
 }
 .features-item {
     display: flex;
     padding-bottom: 94px;
+    margin-top: 50px;
 }
-.features-img {
+.features-img:not(:last-child) {
     margin-right: 30px;
 }
 /*------------Team---------*/
@@ -228,7 +229,7 @@ body {
     letter-spacing: 0.03em;
     color:var(--second-title-color);
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .masters-item-title {
     font-weight: 500;
@@ -247,10 +248,7 @@ body {
 }
 
 /*---FOOTER---*/
-.footer-list {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+
 .footer-name {
     padding-top: 20px;
 }
@@ -259,6 +257,8 @@ body {
 }
 .footer-section {
     background-color:var(--hero-section-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-logo {
     font-family: Raleway;
@@ -368,7 +368,7 @@ body {
 .portfolio-main {
     display: flex;
     flex-wrap: wrap;
-    margin-left: calc(-1 * var(--portfolio-card-gap));
+    margin-right: calc(-1 * var(--portfolio-card-gap));
     margin-bottom: calc(-1 * var(--portfolio-card-gap));
 }
 .portfolio-content {
