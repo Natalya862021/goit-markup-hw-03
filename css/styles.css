@@ -49,7 +49,6 @@ body {
 }
 .header {
     border-bottom: 1px solid #ECECEC;
-    height: 80px;  
 }
 .header-link {
     font-weight: 500;
@@ -57,6 +56,8 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
+    padding-bottom: 32px;
+    padding-top: 32px;
 }
 .header-logo {
     font-family: Raleway;
@@ -87,13 +88,10 @@ body {
 }
 .head-logo {
     margin-right: 93px;
+    padding: 24px 25px;
 }
 .header-item:not(:last-child) {
     margin-right: 50px; 
-}
-.header-item {
-    padding-bottom: 32px;
-    padding-top: 32px;
 }
 .header-tel {
     font-weight: 500;
