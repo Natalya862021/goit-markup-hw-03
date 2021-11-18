@@ -48,7 +48,8 @@ body {
     align-items: center;
 }
 .header {
-    border-bottom: 1px solid #ECECEC;    
+    border-bottom: 1px solid #ECECEC;
+    height: 80px;  
 }
 .header-link {
     font-weight: 500;
@@ -181,6 +182,7 @@ body {
 /*-----------Features----------*/
 .features-info {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 .features {
     font-weight: 700;
@@ -192,7 +194,6 @@ body {
 }
 .features-item {
     display: flex;
-    padding-bottom: 94px;
     margin-top: 50px;
 }
 .features-img:not(:last-child) {
@@ -202,11 +203,11 @@ body {
 .team-main {
     background-color: #f5f4fa;
     padding-top: 94px;
+    padding-bottom: 88px;
 }
 .team-list {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 88px;
 }
 .masters-item {
     margin-right: 30px;
